@@ -11,6 +11,9 @@
 		B8518D892703BF0300CE5244 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8518D882703BF0300CE5244 /* ContentView.swift */; };
 		B8518D8B2703BF0800CE5244 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8518D8A2703BF0800CE5244 /* Assets.xcassets */; };
 		B8518D8E2703BF0800CE5244 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8518D8D2703BF0800CE5244 /* Preview Assets.xcassets */; };
+		B8518D962703C29F00CE5244 /* ScanData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8518D952703C29F00CE5244 /* ScanData.swift */; };
+		B8518D982703C73300CE5244 /* ScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8518D972703C73300CE5244 /* ScannerView.swift */; };
+		B8518D9A2703D19B00CE5244 /* TextRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8518D992703D19B00CE5244 /* TextRecognizer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		B8518D8A2703BF0800CE5244 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B8518D8D2703BF0800CE5244 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B8518D8F2703BF0800CE5244 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8518D952703C29F00CE5244 /* ScanData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanData.swift; sourceTree = "<group>"; };
+		B8518D972703C73300CE5244 /* ScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerView.swift; sourceTree = "<group>"; };
+		B8518D992703D19B00CE5244 /* TextRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextRecognizer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,9 @@
 			children = (
 				B8518D862703BF0300CE5244 /* Scan_OcrApp.swift */,
 				B8518D882703BF0300CE5244 /* ContentView.swift */,
+				B8518D972703C73300CE5244 /* ScannerView.swift */,
+				B8518D992703D19B00CE5244 /* TextRecognizer.swift */,
+				B8518D952703C29F00CE5244 /* ScanData.swift */,
 				B8518D8A2703BF0800CE5244 /* Assets.xcassets */,
 				B8518D8F2703BF0800CE5244 /* Info.plist */,
 				B8518D8C2703BF0800CE5244 /* Preview Content */,
@@ -139,7 +148,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8518D892703BF0300CE5244 /* ContentView.swift in Sources */,
+				B8518D982703C73300CE5244 /* ScannerView.swift in Sources */,
+				B8518D9A2703D19B00CE5244 /* TextRecognizer.swift in Sources */,
 				B8518D872703BF0300CE5244 /* Scan_OcrApp.swift in Sources */,
+				B8518D962703C29F00CE5244 /* ScanData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
